@@ -89,8 +89,9 @@
 			},
 			{
 				"imgURL": "./assets/images/cartas/hamburguesas/hamburguesa-especial",
-				"name": "Hamburguesa especial",
+				"name": "Hamburguesa",
 				"price": "400",
+				"name_extra": "Especial",
 				"big": false
 			},
 			{
@@ -137,14 +138,16 @@
 			},
 			{
 				"imgURL": "./assets/images/cartas/pizzas/pizza-queso-personal",
-				"name": "Pizza de queso (personal)",
+				"name": "Pizza de queso",
 				"price": "300",
+				"name_extra": "Personal",
 				"big": false
 			},
 			{
 				"imgURL": "./assets/images/cartas/pizzas/pizza-queso-especial",
-				"name": "Pizza de queso (especial)",
+				"name": "Pizza de queso",
 				"price": "500",
+				"name_extra": "Especial",
 				"big": true
 			},
 			{
@@ -155,14 +158,16 @@
 			},
 			{
 				"imgURL": "./assets/images/cartas/pizzas/pizza-embutido-personal",
-				"name": "Pizza de embutido (personal)",
+				"name": "Pizza de embutido",
 				"price": "350",
+				"name_extra": "Personal",
 				"big": false
 			},
 			{
 				"imgURL": "./assets/images/cartas/pizzas/pizza-embutido-especial",
-				"name": "Pizza de embutido (especial)",
+				"name": "Pizza de embutido",
 				"price": "550",
+				"name_extra": "Especial",
 				"big": true
 			},
 			{
@@ -173,14 +178,16 @@
 			},
 			{
 				"imgURL": "./assets/images/cartas/pizzas/pizza-jamon-personal",
-				"name": "Piza de jamón (personal)",
+				"name": "Piza de jamón",
 				"price": "720",
+				"name_extra": "Personal",
 				"big": false
 			},
 			{
 				"imgURL": "./assets/images/cartas/pizzas/pizza-jamon-especial",
-				"name": "Pizza de jamón (especial)",
+				"name": "Pizza de jamón",
 				"price": "920",
+				"name_extra": "Especial",
 				"big": true
 			},
 			{
@@ -191,14 +198,16 @@
 			},
 			{
 				"imgURL": "./assets/images/cartas/pizzas/pizza-langosta-personal",
-				"name": "Pizza de langosta (personal)",
+				"name": "Pizza de langosta",
 				"price": "720",
+				"name_extra": "Personal",
 				"big": false
 			},
 			{
 				"imgURL": "./assets/images/cartas/pizzas/pizza-langosta-especial",
-				"name": "Pizza de langosta (especial)",
+				"name": "Pizza de langosta",
 				"price": "950",
+				"name_extra": "Especial",
 				"big": true
 			},
 			{
@@ -209,14 +218,16 @@
 			},
 			{
 				"imgURL": "./assets/images/cartas/pizzas/pizza-camaron-personal",
-				"name": "Pizza de camarón (personal)",
+				"name": "Pizza de camarón",
 				"price": "720",
+				"name_extra": "Personal",
 				"big": false
 			},
 			{
 				"imgURL": "./assets/images/cartas/pizzas/pizza-camaron-especial",
-				"name": "Pizza de camarón (especial)",
+				"name": "Pizza de camarón",
 				"price": "950",
+				"name_extra": "Especial",
 				"big": true
 			},
 			{
@@ -227,14 +238,16 @@
 			},
 			{
 				"imgURL": "./assets/images/cartas/pizzas/pizza-hawaiana-queso-personal",
-				"name": "Pizza hawaiana de queso (personal)",
+				"name": "Pizza hawaiana de queso",
 				"price": "350",
+				"name_extra": "Personal",
 				"big": false
 			},
 			{
 				"imgURL": "./assets/images/cartas/pizzas/pizza-hawaiana-queso-especial",
-				"name": "Pizza hawaiana de queso (especial)",
+				"name": "Pizza hawaiana de queso",
 				"price": "550",
+				"name_extra": "Especial",
 				"big": true
 			},
 			{
@@ -245,14 +258,16 @@
 			},
 			{
 				"imgURL": "./assets/images/cartas/pizzas/pizza-hawaiana-embutido-personal",
-				"name": "Pizza hawaiana de embutido (personal)",
+				"name": "Pizza hawaiana de embutido",
 				"price": "400",
+				"name_extra": "Personal",
 				"big": false
 			},
 			{
 				"imgURL": "./assets/images/cartas/pizzas/pizza-hawaiana-embutido-especial",
-				"name": "Pizza hawaiana de embutido (especial)",
+				"name": "Pizza hawaiana de embutido",
 				"price": "600",
+				"name_extra": "Especial",
 				"big": true
 			},
 			{
@@ -263,14 +278,16 @@
 			},
 			{
 				"imgURL": "./assets/images/cartas/pizzas/pizza-hawaiana-jamon-personal",
-				"name": "Pizza hawaiana de jamón (personal)",
+				"name": "Pizza hawaiana de jamón",
 				"price": "770",
+				"name_extra": "Personal",
 				"big": false
 			},
 			{
 				"imgURL": "./assets/images/cartas/pizzas/pizza-hawaiana-jamon-especial",
-				"name": "Pizza hawaiana de jamón (especial)",
+				"name": "Pizza hawaiana de jamón",
 				"price": "970",
+				"name_extra": "Especial",
 				"big": true
 			},
 			{
@@ -281,14 +298,16 @@
 			},
 			{
 				"imgURL": "./assets/images/cartas/pizzas/pizza-vegetales-personal",
-				"name": "Pizza de vegetales (personal)",
+				"name": "Pizza de vegetales",
 				"price": "300",
+				"name_extra": "Personal",
 				"big": false
 			},
 			{
 				"imgURL": "./assets/images/cartas/pizzas/pizza-vegetales-especial",
-				"name": "Pizza de vegetales (especial)",
+				"name": "Pizza de vegetales",
 				"price": "450",
+				"name_extra": "Especial",
 				"big": true
 			}
 		]
@@ -359,8 +378,9 @@
 			},
 			{
 				"imgURL": "./assets/images/cartas/arroces/paella",
-				"name": "Paella (7 Rac)",
+				"name": "Paella",
 				"price": "4000",
+				"name_extra": "7 Raciones",
 				"big": false
 			}
 		]
@@ -628,15 +648,17 @@
 				"big": false
 			},
 			{
-				"imgURL": "./assets/images/cartas/bebidas/refresco-pomo-grande",
-				"name": "Refresco de Pomo (Grande)",
-				"price": "600",
+				"imgURL": "./assets/images/cartas/bebidas/refresco-pomo-chico",
+				"name": "Refresco de Pomo",
+				"price": "250",
+				"name_extra": "Chico",
 				"big": false
 			},
 			{
-				"imgURL": "./assets/images/cartas/bebidas/refresco-pomo-chico",
-				"name": "Refresco de Pomo (Chico)",
-				"price": "250",
+				"imgURL": "./assets/images/cartas/bebidas/refresco-pomo-grande",
+				"name": "Refresco de Pomo",
+				"price": "600",
+				"name_extra": "Grande",
 				"big": false
 			},
 			{
@@ -653,14 +675,16 @@
 			},
 			{
 				"imgURL": "./assets/images/cartas/bebidas/jugo-caja-chico",
-				"name": "Jugo de caja (Chico)",
+				"name": "Jugo de caja",
 				"price": "200",
+				"name_extra": "Chico",
 				"big": false
 			},
 			{
 				"imgURL": "./assets/images/cartas/bebidas/jugo-caja-grande",
-				"name": "Jugo de caja (Grande)",
+				"name": "Jugo de caja",
 				"price": "730",
+				"name_extra": "Grande",
 				"big": false
 			},
 			{
@@ -689,14 +713,16 @@
 			},
 			{
 				"imgURL": "./assets/images/cartas/bebidas/agua-natural-500ml",
-				"name": "Agua natural (500ml)",
+				"name": "Agua natural",
 				"price": "120",
+				"name_extra": "500ml",
 				"big": false
 			},
 			{
 				"imgURL": "./assets/images/cartas/bebidas/agua-natural-1500ml",
-				"name": "Agua natural (1500ml)",
+				"name": "Agua natural",
 				"price": "180",
+				"name_extra": "1500ml",
 				"big": false
 			},
 			{
