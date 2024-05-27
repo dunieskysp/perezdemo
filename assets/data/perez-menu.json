@@ -354,8 +354,9 @@
 			},
 			{
 				"imgURL": "./assets/images/cartas/arroces/arroz-frito-especial",
-				"name": "Arroz frito especial",
+				"name": "Arroz frito",
 				"price": "650",
+				"name_extra": "Especial",
 				"big": false
 			},
 			{
@@ -366,8 +367,9 @@
 			},
 			{
 				"imgURL": "./assets/images/cartas/arroces/arroz-salteado-especial",
-				"name": "Arroz salteado especial",
+				"name": "Arroz salteado",
 				"price": "500",
+				"name_extra": "Especial",
 				"big": false
 			},
 			{
@@ -600,15 +602,15 @@
 				"big": false
 			},
 			{
-				"imgURL": "./assets/images/cartas/viandas/tostones",
-				"name": "Tostones",
-				"price": "340",
-				"big": false
-			},
-			{
 				"imgURL": "./assets/images/cartas/viandas/platano-maduro-frito",
 				"name": "Plátano maduro frito",
 				"price": "380",
+				"big": false
+			},
+			{
+				"imgURL": "./assets/images/cartas/viandas/tostones",
+				"name": "Tostones",
+				"price": "340",
 				"big": false
 			},
 			{
