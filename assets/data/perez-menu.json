@@ -1,866 +1,778 @@
-[
-	{
-		"sectionID": "aperitivos",
-		"heading": "Aperitivos",
-		"products": [
-			{
-				"imgURL": "./assets/images/cartas/aperitivos/ensalada-fria",
-				"name": "Ensalada fría",
-				"price": "150",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/aperitivos/coctel-ostion",
-				"name": "Cóctel de ostión",
-				"price": "200",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/aperitivos/sopa",
-				"name": "Sopas",
-				"price": "350",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/aperitivos/croquetas",
-				"name": "Croquetas",
-				"price": "180",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/aperitivos/entremes",
-				"name": "Entremés",
-				"price": "600",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/aperitivos/coctel-mariscos",
-				"name": "Cóctel de mariscos",
-				"price": "600",
-				"big": false
-			}
-		]
-	},
-	{
-		"sectionID": "sandwichs",
-		"heading": "Sándwichs",
-		"products": [
-			{
-				"imgURL": "./assets/images/cartas/sandwichs/sandwich-perez",
-				"name": "Sándwich Perez’s",
-				"price": "300",
-				"big": true
-			},
-			{
-				"imgURL": "./assets/images/cartas/sandwichs/sandwich-filete-pescado",
-				"name": "Sándwich de filete de pescado",
-				"price": "275",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/sandwichs/sandwich-media-noche",
-				"name": "Sándwich Media Noche",
-				"price": "900",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/sandwichs/sandwich-cubano",
-				"name": "Sándwich Cubano",
-				"price": "950",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/sandwichs/sandwich-atun",
-				"name": "Sándwich de atún",
-				"price": "1000",
-				"big": false
-			}
-		]
-	},
-	{
-		"sectionID": "hamburguesas",
-		"heading": "Hamburguesas",
-		"products": [
-			{
-				"imgURL": "./assets/images/cartas/hamburguesas/hamburguesa",
-				"name": "Hamburguesa",
-				"price": "275",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/hamburguesas/hamburguesa-especial",
-				"name": "Hamburguesa",
-				"price": "400",
-				"name_extra": "Especial",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/hamburguesas/papas-fritas",
-				"name": "Papas fritas",
-				"price": "500",
-				"big": true
-			}
-		]
-	},
-	{
-		"sectionID": "tortillas",
-		"heading": "Tortillas",
-		"products": [
-			{
-				"imgURL": "./assets/images/cartas/tortillas/tortilla-natural",
-				"name": "Tortilla natural",
-				"price": "200",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/tortillas/tortilla-queso",
-				"name": "Tortilla de queso",
-				"price": "300",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/tortillas/tortilla-jamon-queso",
-				"name": "Tortilla de jamón y queso",
-				"price": "500",
-				"big": true
-			}
-		]
-	},
-	{
-		"sectionID": "pizzas",
-		"heading": "Pizzas",
-		"products": [
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-queso",
-				"name": "Pizza de queso",
-				"price": "200",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-queso-personal",
-				"name": "Pizza de queso",
-				"price": "300",
-				"name_extra": "Personal",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-queso-especial",
-				"name": "Pizza de queso",
-				"price": "500",
-				"name_extra": "Especial",
-				"big": true
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-embutido",
-				"name": "Pizza de embutido",
-				"price": "250",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-embutido-personal",
-				"name": "Pizza de embutido",
-				"price": "350",
-				"name_extra": "Personal",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-embutido-especial",
-				"name": "Pizza de embutido",
-				"price": "550",
-				"name_extra": "Especial",
-				"big": true
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-jamon",
-				"name": "Pizza de jamón",
-				"price": "520",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-jamon-personal",
-				"name": "Piza de jamón",
-				"price": "720",
-				"name_extra": "Personal",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-jamon-especial",
-				"name": "Pizza de jamón",
-				"price": "920",
-				"name_extra": "Especial",
-				"big": true
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-langosta",
-				"name": "Pizza de langosta",
-				"price": "500",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-langosta-personal",
-				"name": "Pizza de langosta",
-				"price": "720",
-				"name_extra": "Personal",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-langosta-especial",
-				"name": "Pizza de langosta",
-				"price": "950",
-				"name_extra": "Especial",
-				"big": true
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-camaron",
-				"name": "Pizza de camarón",
-				"price": "500",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-camaron-personal",
-				"name": "Pizza de camarón",
-				"price": "720",
-				"name_extra": "Personal",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-camaron-especial",
-				"name": "Pizza de camarón",
-				"price": "950",
-				"name_extra": "Especial",
-				"big": true
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-hawaiana-queso",
-				"name": "Pizza hawaiana de queso",
-				"price": "250",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-hawaiana-queso-personal",
-				"name": "Pizza hawaiana de queso",
-				"price": "350",
-				"name_extra": "Personal",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-hawaiana-queso-especial",
-				"name": "Pizza hawaiana de queso",
-				"price": "550",
-				"name_extra": "Especial",
-				"big": true
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-hawaiana-embutido",
-				"name": "Pizza hawaiana de embutido",
-				"price": "300",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-hawaiana-embutido-personal",
-				"name": "Pizza hawaiana de embutido",
-				"price": "400",
-				"name_extra": "Personal",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-hawaiana-embutido-especial",
-				"name": "Pizza hawaiana de embutido",
-				"price": "600",
-				"name_extra": "Especial",
-				"big": true
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-hawaiana-jamon",
-				"name": "Pizza hawaiana de jamón",
-				"price": "570",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-hawaiana-jamon-personal",
-				"name": "Pizza hawaiana de jamón",
-				"price": "770",
-				"name_extra": "Personal",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-hawaiana-jamon-especial",
-				"name": "Pizza hawaiana de jamón",
-				"price": "970",
-				"name_extra": "Especial",
-				"big": true
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-vegetales",
-				"name": "Pizza de vegetales",
-				"price": "250",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-vegetales-personal",
-				"name": "Pizza de vegetales",
-				"price": "300",
-				"name_extra": "Personal",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pizzas/pizza-vegetales-especial",
-				"name": "Pizza de vegetales",
-				"price": "450",
-				"name_extra": "Especial",
-				"big": true
-			}
-		]
-	},
-	{
-		"sectionID": "pastas",
-		"heading": "Pastas",
-		"products": [
-			{
-				"imgURL": "./assets/images/cartas/pastas/espaguetis-queso",
-				"name": "Espaguetis de queso",
-				"price": "400",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pastas/espaguetis-jamon-queso",
-				"name": "Espaguetis de jamón y queso",
-				"price": "500",
-				"big": false
-			}
-		]
-	},
-	{
-		"sectionID": "arroces",
-		"heading": "Arroces",
-		"products": [
-			{
-				"imgURL": "./assets/images/cartas/arroces/arroz-blanco",
-				"name": "Arroz blanco",
-				"price": "100",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/arroces/arroz-congris",
-				"name": "Arroz congris",
-				"price": "150",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/arroces/arroz-frito",
-				"name": "Arroz frito",
-				"price": "350",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/arroces/arroz-frito-especial",
-				"name": "Arroz frito",
-				"price": "650",
-				"name_extra": "Especial",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/arroces/arroz-salteado",
-				"name": "Arroz salteado",
-				"price": "350",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/arroces/arroz-salteado-especial",
-				"name": "Arroz salteado",
-				"price": "500",
-				"name_extra": "Especial",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/arroces/arroz-mariscos",
-				"name": "Arroz con mariscos",
-				"price": "980",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/arroces/paella",
-				"name": "Paella",
-				"price": "4000",
-				"name_extra": "7 Raciones",
-				"big": false
-			}
-		]
-	},
-	{
-		"sectionID": "carne-res",
-		"heading": "Carne de Res",
-		"products": [
-			{
-				"imgURL": "./assets/images/cartas/carne-res/bistec-grille",
-				"name": "Bistec grille",
-				"price": "1300",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/carne-res/ropa-vieja",
-				"name": "Ropa vieja",
-				"price": "1500",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/carne-res/bistec-uruguayo",
-				"name": "Bistec uruguayo",
-				"price": "1500",
-				"big": true
-			}
-		]
-	},
-	{
-		"sectionID": "carne-cerdo",
-		"heading": "Carne de Cerdo",
-		"products": [
-			{
-				"imgURL": "./assets/images/cartas/carne-cerdo/higado-a-la-italiana",
-				"name": "Hígado a la italiana",
-				"price": "350",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/carne-cerdo/juliana-con-vegetales",
-				"name": "Juliana con vegetales",
-				"price": "660",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/carne-cerdo/bistec-grille",
-				"name": "Bistec grille",
-				"price": "620",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/carne-cerdo/bistec-uruguayo",
-				"name": "Bistec uruguayo",
-				"price": "850",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/carne-cerdo/lomo-ahumado",
-				"name": "Lomo ahumado",
-				"price": "630",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/carne-cerdo/escalope",
-				"name": "Escalope",
-				"price": "650",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/carne-cerdo/masas-fritas",
-				"name": "Masas fritas",
-				"price": "950",
-				"big": true
-			},
-			{
-				"imgURL": "./assets/images/cartas/carne-cerdo/costillas-fritas",
-				"name": "Costillas fritas",
-				"price": "750",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/carne-cerdo/chuleta",
-				"name": "Chuleta",
-				"price": "1500",
-				"big": false
-			}
-		]
-	},
-	{
-		"sectionID": "pollo",
-		"heading": "Pollo",
-		"products": [
-			{
-				"imgURL": "./assets/images/cartas/pollo/pollo-frito",
-				"name": "Pollo frito a la criolla",
-				"price": "950",
-				"big": true
-			},
-			{
-				"imgURL": "./assets/images/cartas/pollo/bistec-grille",
-				"name": "Bistec grille",
-				"price": "690",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pollo/bistec-empanizado",
-				"name": "Bistec empanizado",
-				"price": "700",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pollo/bistec-gordon-blue",
-				"name": "Bistec Gordon Blue",
-				"price": "820",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pollo/juliana-de-pollo",
-				"name": "Juliana de pollo",
-				"price": "720",
-				"big": false
-			}
-		]
-	},
-	{
-		"sectionID": "pescados",
-		"heading": "Pescados",
-		"products": [
-			{
-				"imgURL": "./assets/images/cartas/pescados/pescado-frito",
-				"name": "Pescado frito",
-				"price": "670",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pescados/filete-grille",
-				"name": "Filete grille",
-				"price": "670",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pescados/filete-empanizado",
-				"name": "Filete empanizado",
-				"price": "690",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pescados/eperlan",
-				"name": "Eperlán",
-				"price": "690",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pescados/filete-canciller",
-				"name": "Filete canciller",
-				"price": "750",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/pescados/filete-perez",
-				"name": "Filete Perez’s",
-				"price": "700",
-				"big": false
-			}
-		]
-	},
-	{
-		"sectionID": "mariscos",
-		"heading": "Mariscos",
-		"products": [
-			{
-				"imgURL": "./assets/images/cartas/mariscos/camaron-rebosado",
-				"name": "Camarón rebosado",
-				"price": "1200",
-				"big": true
-			},
-			{
-				"imgURL": "./assets/images/cartas/mariscos/camaron-al-ajillo",
-				"name": "Camarón al ajillo",
-				"price": "1250",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/mariscos/enchilado",
-				"name": "Enchilado",
-				"price": "1300",
-				"big": false
-			}
-		]
-	},
-	{
-		"sectionID": "ensaladas",
-		"heading": "Ensaladas",
-		"products": [
-			{
-				"imgURL": "./assets/images/cartas/ensaladas/ensalada",
-				"name": "Ensalada de estación",
-				"price": "150",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/ensaladas/ensalada-mixta",
-				"name": "Ensalada mixta",
-				"price": "180",
-				"big": false
-			}
-		]
-	},
-	{
-		"sectionID": "viandas",
-		"heading": "Viandas",
-		"products": [
-			{
-				"imgURL": "./assets/images/cartas/viandas/chicharitas-platano",
-				"name": "Chicharitas de plátano",
-				"price": "160",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/viandas/platano-maduro-frito",
-				"name": "Plátano maduro frito",
-				"price": "380",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/viandas/tostones",
-				"name": "Tostones",
-				"price": "340",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/viandas/papas-fritas",
-				"name": "Papas fritas",
-				"price": "500",
-				"big": false
-			}
-		]
-	},
-	{
-		"sectionID": "postres",
-		"heading": "Postres",
-		"products": [
-			{
-				"imgURL": "./assets/images/cartas/postres/postre",
-				"name": "Postre de la casa",
-				"price": "250",
-				"big": true
-			}
-		]
-	},
-	{
-		"sectionID": "bebidas",
-		"heading": "Bebidas",
-		"products": [
-			{
-				"imgURL": "./assets/images/cartas/bebidas/refrescos-nacionales",
-				"name": "Refrescos nacionales",
-				"price": "250",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/bebidas/refrescos-importados",
-				"name": "Refrescos importados",
-				"price": "210",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/bebidas/refresco-pomo-chico",
-				"name": "Refresco de Pomo",
-				"price": "250",
-				"name_extra": "Chico",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/bebidas/refresco-pomo-grande",
-				"name": "Refresco de Pomo",
-				"price": "600",
-				"name_extra": "Grande",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/bebidas/malta-nacional",
-				"name": "Malta nacional",
-				"price": "300",
-				"big": true
-			},
-			{
-				"imgURL": "./assets/images/cartas/bebidas/malta-importada",
-				"name": "Malta importada",
-				"price": "280",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/bebidas/jugo-caja-chico",
-				"name": "Jugo de caja",
-				"price": "200",
-				"name_extra": "Chico",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/bebidas/jugo-caja-grande",
-				"name": "Jugo de caja",
-				"price": "730",
-				"name_extra": "Grande",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/bebidas/jugo-lata",
-				"name": "Jugo de lata",
-				"price": "270",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/bebidas/cerveza-cristal",
-				"name": "Cerveza Cristal",
-				"price": "300",
-				"big": true
-			},
-			{
-				"imgURL": "./assets/images/cartas/bebidas/cerveza-bucanero",
-				"name": "Cerveza Bucanero",
-				"price": "300",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/bebidas/cerveza-importada",
-				"name": "Cerveza importada",
-				"price": "210",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/bebidas/agua-natural-500ml",
-				"name": "Agua natural",
-				"price": "120",
-				"name_extra": "500ml",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/bebidas/agua-natural-1500ml",
-				"name": "Agua natural",
-				"price": "180",
-				"name_extra": "1500ml",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/bebidas/kermato",
-				"name": "Kermato",
-				"price": "350",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/bebidas/energizantes",
-				"name": "Energizantes",
-				"price": "250",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/bebidas/red-bull",
-				"name": "Red Bull",
-				"price": "450",
-				"big": true
-			},
-			{
-				"imgURL": "./assets/images/cartas/bebidas/yogurt",
-				"name": "Yogurt",
-				"price": "180",
-				"big": false
-			},
-			{
-				"imgURL": "./assets/images/cartas/bebidas/cafe",
-				"name": "Café",
-				"price": "60",
-				"big": false
-			}
-		]
-	},
-	{
-		"sectionID": "cocteleria",
-		"heading": "Coctelería",
-		"products": [
-			{
-				"imgURL": "./assets/images/cartas/cocteleria/daiquiri",
-				"name": "Daiquirí",
-				"price": "300",
-				"big": false,
-				"description": "45ml Ron Blanco, 5 Gotas de Marrasquino, 2cda de Azúcar, Limón, Hielo"
-			},
-			{
-				"imgURL": "./assets/images/cartas/cocteleria/pina-colada",
-				"name": "Piña Colada sin Alcohol",
-				"price": "160",
-				"big": false,
-				"description": "90ml Jugo de Piña, 60ml Leche de Coco, 120ml Hielo"
-			},
-			{
-				"imgURL": "./assets/images/cartas/cocteleria/pina-colada-alcohol",
-				"name": "Piña Colada con Alcohol",
-				"price": "200",
-				"big": false,
-				"description": "90ml Jugo de Piña, 60ml Leche de Coco, 30ml Ron Blanco, 120ml Hielo"
-			},
-			{
-				"imgURL": "./assets/images/cartas/cocteleria/laguna-azul",
-				"name": "Laguna Azul",
-				"price": "250",
-				"big": false,
-				"description": "30ml Vodka, 30ml Curacao Azul, Refresco de Limón"
-			},
-			{
-				"imgURL": "./assets/images/cartas/cocteleria/cuba-libre",
-				"name": "Cuba Libre",
-				"price": "300",
-				"big": false,
-				"description": "45ml Ron Blanco, Limón, Refresco de Cola, Hielo"
-			},
-			{
-				"imgURL": "./assets/images/cartas/cocteleria/blue-hawaii",
-				"name": "Blue Hawaii",
-				"price": "250",
-				"big": false,
-				"description": "30ml Ron Blanco, 30ml Curacao Azul, 60ml Jugo de Piña, 30ml Leche de Coco, Hielo"
-			},
-			{
-				"imgURL": "./assets/images/cartas/cocteleria/sangria",
-				"name": "Sangría",
-				"price": "300",
-				"big": false,
-				"description": "45ml Vino Blanco, Limón, 1cda de Azúcar, Refresco de Limón, Hielo"
-			},
-			{
-				"imgURL": "./assets/images/cartas/cocteleria/limonada-frape",
-				"name": "Limonada Frappe",
-				"price": "180",
-				"big": false,
-				"description": "3cda de Azúcar, Limón, Hielo"
-			},
-			{
-				"imgURL": "./assets/images/cartas/cocteleria/limonada-electrica",
-				"name": "Limonada Eléctrica",
-				"price": "200",
-				"big": false,
-				"description": "45ml Vodka o Ron Blanco, 30ml Curacao Azul, Limón, 2cda de Azúcar, Hielo"
-			},
-			{
-				"imgURL": "./assets/images/cartas/cocteleria/mojito",
-				"name": "Mojito",
-				"price": "200",
-				"big": false,
-				"description": "45ml Ron Blanco, 60ml Refresco de Limón, Hierbabuena, Limón, Azúcar, Hielo"
-			},
-			{
-				"imgURL": "./assets/images/cartas/cocteleria/caipirina",
-				"name": "Caipiriña",
-				"price": "180",
-				"big": false,
-				"description": "45ml Ron Blanco, 1cda de Azúcar, Limón, Hielo"
-			},
-			{
-				"imgURL": "./assets/images/cartas/cocteleria/canchanchara",
-				"name": "Canchánchara",
-				"price": "150",
-				"big": false,
-				"description": "30ml Miel, 45ml Aguardiente, Limón, Hielo"
-			},
-			{
-				"imgURL": "./assets/images/cartas/cocteleria/michelada",
-				"name": "Michelada",
-				"price": "300",
-				"big": false,
-				"description": "1 Cerveza, 1cda Salsa Inglesa, 40ml Jugo de Tomate, Picante, Sal, Pimienta, Limón"
-			},
-			{
-				"imgURL": "./assets/images/cartas/cocteleria/cafe-cortadito",
-				"name": "Café Cortadito",
-				"price": "120",
-				"big": false,
-				"description": "55ml"
-			}
-		]
-	}
-]
+{
+	"foods": [
+		{
+			"sectionID": "aperitivos",
+			"sectionName": "Aperitivos",
+			"products": [
+				{
+					"imgURL": "./assets/images/cartas/aperitivos/ensalada-fria",
+					"name": "Ensalada fría",
+					"price": "150"
+				},
+				{
+					"imgURL": "./assets/images/cartas/aperitivos/coctel-ostion",
+					"name": "Cóctel de ostión",
+					"price": "200"
+				},
+				{
+					"imgURL": "./assets/images/cartas/aperitivos/sopa",
+					"name": "Sopas",
+					"price": "350"
+				},
+				{
+					"imgURL": "./assets/images/cartas/aperitivos/croquetas",
+					"name": "Croquetas",
+					"price": "180"
+				},
+				{
+					"imgURL": "./assets/images/cartas/aperitivos/entremes",
+					"name": "Entremés",
+					"price": "600"
+				},
+				{
+					"imgURL": "./assets/images/cartas/aperitivos/coctel-mariscos",
+					"name": "Cóctel de mariscos",
+					"price": "600"
+				}
+			],
+			"notes": [
+				"Todo los precios en todas las cartas, son en USD y se pueden pagar en CUP, según la tasa de cambio vigente al adquirir el producto."
+			]
+		},
+		{
+			"sectionID": "sandwichs",
+			"sectionName": "Sándwichs",
+			"products": [
+				{
+					"imgURL": "./assets/images/cartas/sandwichs/sandwich-perez",
+					"name": "Sándwich Perez’s",
+					"price": "300",
+					"big": true
+				},
+				{
+					"imgURL": "./assets/images/cartas/sandwichs/sandwich-filete-pescado",
+					"name": "Sándwich de filete de pescado",
+					"price": "275"
+				},
+				{
+					"imgURL": "./assets/images/cartas/sandwichs/sandwich-media-noche",
+					"name": "Sándwich Media Noche",
+					"price": "900"
+				},
+				{
+					"imgURL": "./assets/images/cartas/sandwichs/sandwich-cubano",
+					"name": "Sándwich Cubano",
+					"price": "950"
+				},
+				{
+					"imgURL": "./assets/images/cartas/sandwichs/sandwich-atun",
+					"name": "Sándwich de atún",
+					"price": "1000"
+				}
+			]
+		},
+		{
+			"sectionID": "hamburguesas",
+			"sectionName": "Hamburguesas",
+			"products": [
+				{
+					"imgURL": "./assets/images/cartas/hamburguesas/hamburguesa",
+					"name": "Hamburguesa",
+					"price": "275"
+				},
+				{
+					"imgURL": "./assets/images/cartas/hamburguesas/hamburguesa-especial",
+					"name": "Hamburguesa",
+					"price": "400",
+					"name_extra": "Especial"
+				},
+				{
+					"imgURL": "./assets/images/cartas/hamburguesas/papas-fritas",
+					"name": "Papas fritas",
+					"price": "500",
+					"big": true
+				}
+			]
+		},
+		{
+			"sectionID": "tortillas",
+			"sectionName": "Tortillas",
+			"products": [
+				{
+					"imgURL": "./assets/images/cartas/tortillas/tortilla-natural",
+					"name": "Tortilla natural",
+					"price": "200"
+				},
+				{
+					"imgURL": "./assets/images/cartas/tortillas/tortilla-queso",
+					"name": "Tortilla de queso",
+					"price": "300"
+				},
+				{
+					"imgURL": "./assets/images/cartas/tortillas/tortilla-jamon-queso",
+					"name": "Tortilla de jamón y queso",
+					"price": "500",
+					"big": true
+				}
+			],
+			"notes": ["Las tortillas salen al plato o con pan. ¡Usted decide!"]
+		},
+		{
+			"sectionID": "pizzas",
+			"sectionName": "Pizzas",
+			"products": [
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-queso",
+					"name": "Pizza de queso",
+					"price": "200"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-queso-personal",
+					"name": "Pizza de queso",
+					"price": "300",
+					"name_extra": "Personal"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-queso-especial",
+					"name": "Pizza de queso",
+					"price": "500",
+					"name_extra": "Especial",
+					"big": true
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-embutido",
+					"name": "Pizza de embutido",
+					"price": "250"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-embutido-personal",
+					"name": "Pizza de embutido",
+					"price": "350",
+					"name_extra": "Personal"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-embutido-especial",
+					"name": "Pizza de embutido",
+					"price": "550",
+					"name_extra": "Especial",
+					"big": true
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-jamon",
+					"name": "Pizza de jamón",
+					"price": "520"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-jamon-personal",
+					"name": "Piza de jamón",
+					"price": "720",
+					"name_extra": "Personal"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-jamon-especial",
+					"name": "Pizza de jamón",
+					"price": "920",
+					"name_extra": "Especial",
+					"big": true
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-langosta",
+					"name": "Pizza de langosta",
+					"price": "500"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-langosta-personal",
+					"name": "Pizza de langosta",
+					"price": "720",
+					"name_extra": "Personal"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-langosta-especial",
+					"name": "Pizza de langosta",
+					"price": "950",
+					"name_extra": "Especial",
+					"big": true
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-camaron",
+					"name": "Pizza de camarón",
+					"price": "500"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-camaron-personal",
+					"name": "Pizza de camarón",
+					"price": "720",
+					"name_extra": "Personal"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-camaron-especial",
+					"name": "Pizza de camarón",
+					"price": "950",
+					"name_extra": "Especial",
+					"big": true
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-hawaiana-queso",
+					"name": "Pizza hawaiana de queso",
+					"price": "250"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-hawaiana-queso-personal",
+					"name": "Pizza hawaiana de queso",
+					"price": "350",
+					"name_extra": "Personal"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-hawaiana-queso-especial",
+					"name": "Pizza hawaiana de queso",
+					"price": "550",
+					"name_extra": "Especial",
+					"big": true
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-hawaiana-embutido",
+					"name": "Pizza hawaiana de embutido",
+					"price": "300"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-hawaiana-embutido-personal",
+					"name": "Pizza hawaiana de embutido",
+					"price": "400",
+					"name_extra": "Personal"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-hawaiana-embutido-especial",
+					"name": "Pizza hawaiana de embutido",
+					"price": "600",
+					"name_extra": "Especial",
+					"big": true
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-hawaiana-jamon",
+					"name": "Pizza hawaiana de jamón",
+					"price": "570"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-hawaiana-jamon-personal",
+					"name": "Pizza hawaiana de jamón",
+					"price": "770",
+					"name_extra": "Personal"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-hawaiana-jamon-especial",
+					"name": "Pizza hawaiana de jamón",
+					"price": "970",
+					"name_extra": "Especial",
+					"big": true
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-vegetales",
+					"name": "Pizza de vegetales",
+					"price": "250"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-vegetales-personal",
+					"name": "Pizza de vegetales",
+					"price": "300",
+					"name_extra": "Personal"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pizzas/pizza-vegetales-especial",
+					"name": "Pizza de vegetales",
+					"price": "450",
+					"name_extra": "Especial",
+					"big": true
+				}
+			],
+			"notes": [
+				"Todas las pizzas llevan pimiento, cebolla y tómate al gusto de cada cliente.",
+				"Las pizzas especiales son para dos personas."
+			]
+		},
+		{
+			"sectionID": "pastas",
+			"sectionName": "Pastas",
+			"products": [
+				{
+					"imgURL": "./assets/images/cartas/pastas/espaguetis-queso",
+					"name": "Espaguetis de queso",
+					"price": "400"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pastas/espaguetis-jamon-queso",
+					"name": "Espaguetis de jamón y queso",
+					"price": "500"
+				}
+			]
+		},
+		{
+			"sectionID": "arroces",
+			"sectionName": "Arroces",
+			"products": [
+				{
+					"imgURL": "./assets/images/cartas/arroces/arroz-blanco",
+					"name": "Arroz blanco",
+					"price": "100"
+				},
+				{
+					"imgURL": "./assets/images/cartas/arroces/arroz-congris",
+					"name": "Arroz congris",
+					"price": "150"
+				},
+				{
+					"imgURL": "./assets/images/cartas/arroces/arroz-frito",
+					"name": "Arroz frito",
+					"price": "350"
+				},
+				{
+					"imgURL": "./assets/images/cartas/arroces/arroz-frito-especial",
+					"name": "Arroz frito",
+					"price": "650",
+					"name_extra": "Especial"
+				},
+				{
+					"imgURL": "./assets/images/cartas/arroces/arroz-salteado",
+					"name": "Arroz salteado",
+					"price": "350"
+				},
+				{
+					"imgURL": "./assets/images/cartas/arroces/arroz-salteado-especial",
+					"name": "Arroz salteado",
+					"price": "500",
+					"name_extra": "Especial"
+				},
+				{
+					"imgURL": "./assets/images/cartas/arroces/arroz-mariscos",
+					"name": "Arroz con mariscos",
+					"price": "980"
+				},
+				{
+					"imgURL": "./assets/images/cartas/arroces/paella",
+					"name": "Paella",
+					"price": "4000",
+					"name_extra": "7 Raciones"
+				}
+			]
+		},
+		{
+			"sectionID": "carne-res",
+			"sectionName": "Carne de Res",
+			"products": [
+				{
+					"imgURL": "./assets/images/cartas/carne-res/bistec-grille",
+					"name": "Bistec grille",
+					"price": "1300"
+				},
+				{
+					"imgURL": "./assets/images/cartas/carne-res/ropa-vieja",
+					"name": "Ropa vieja",
+					"price": "1500"
+				},
+				{
+					"imgURL": "./assets/images/cartas/carne-res/bistec-uruguayo",
+					"name": "Bistec uruguayo",
+					"price": "1500",
+					"big": true
+				}
+			]
+		},
+		{
+			"sectionID": "carne-cerdo",
+			"sectionName": "Carne de Cerdo",
+			"products": [
+				{
+					"imgURL": "./assets/images/cartas/carne-cerdo/higado-a-la-italiana",
+					"name": "Hígado a la italiana",
+					"price": "350"
+				},
+				{
+					"imgURL": "./assets/images/cartas/carne-cerdo/juliana-con-vegetales",
+					"name": "Juliana con vegetales",
+					"price": "660"
+				},
+				{
+					"imgURL": "./assets/images/cartas/carne-cerdo/bistec-grille",
+					"name": "Bistec grille",
+					"price": "620"
+				},
+				{
+					"imgURL": "./assets/images/cartas/carne-cerdo/bistec-uruguayo",
+					"name": "Bistec uruguayo",
+					"price": "850"
+				},
+				{
+					"imgURL": "./assets/images/cartas/carne-cerdo/lomo-ahumado",
+					"name": "Lomo ahumado",
+					"price": "630"
+				},
+				{
+					"imgURL": "./assets/images/cartas/carne-cerdo/escalope",
+					"name": "Escalope",
+					"price": "650"
+				},
+				{
+					"imgURL": "./assets/images/cartas/carne-cerdo/masas-fritas",
+					"name": "Masas fritas",
+					"price": "950",
+					"big": true
+				},
+				{
+					"imgURL": "./assets/images/cartas/carne-cerdo/costillas-fritas",
+					"name": "Costillas fritas",
+					"price": "750"
+				},
+				{
+					"imgURL": "./assets/images/cartas/carne-cerdo/chuleta",
+					"name": "Chuleta",
+					"price": "1500"
+				}
+			]
+		},
+		{
+			"sectionID": "pollo",
+			"sectionName": "Pollo",
+			"products": [
+				{
+					"imgURL": "./assets/images/cartas/pollo/pollo-frito",
+					"name": "Pollo frito a la criolla",
+					"price": "950",
+					"big": true
+				},
+				{
+					"imgURL": "./assets/images/cartas/pollo/bistec-grille",
+					"name": "Bistec grille",
+					"price": "690"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pollo/bistec-empanizado",
+					"name": "Bistec empanizado",
+					"price": "700"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pollo/bistec-gordon-blue",
+					"name": "Bistec Gordon Blue",
+					"price": "820"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pollo/juliana-de-pollo",
+					"name": "Juliana de pollo",
+					"price": "720"
+				}
+			]
+		},
+		{
+			"sectionID": "pescados",
+			"sectionName": "Pescados",
+			"products": [
+				{
+					"imgURL": "./assets/images/cartas/pescados/pescado-frito",
+					"name": "Pescado frito",
+					"price": "670"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pescados/filete-grille",
+					"name": "Filete grille",
+					"price": "670"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pescados/filete-empanizado",
+					"name": "Filete empanizado",
+					"price": "690"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pescados/eperlan",
+					"name": "Eperlán",
+					"price": "690"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pescados/filete-canciller",
+					"name": "Filete canciller",
+					"price": "750"
+				},
+				{
+					"imgURL": "./assets/images/cartas/pescados/filete-perez",
+					"name": "Filete Perez’s",
+					"price": "700"
+				}
+			]
+		},
+		{
+			"sectionID": "mariscos",
+			"sectionName": "Mariscos",
+			"products": [
+				{
+					"imgURL": "./assets/images/cartas/mariscos/camaron-rebosado",
+					"name": "Camarón rebosado",
+					"price": "1200",
+					"big": true
+				},
+				{
+					"imgURL": "./assets/images/cartas/mariscos/camaron-al-ajillo",
+					"name": "Camarón al ajillo",
+					"price": "1250"
+				},
+				{
+					"imgURL": "./assets/images/cartas/mariscos/enchilado",
+					"name": "Enchilado",
+					"price": "1300"
+				}
+			]
+		},
+		{
+			"sectionID": "ensaladas",
+			"sectionName": "Ensaladas",
+			"products": [
+				{
+					"imgURL": "./assets/images/cartas/ensaladas/ensalada",
+					"name": "Ensalada de estación",
+					"price": "150"
+				},
+				{
+					"imgURL": "./assets/images/cartas/ensaladas/ensalada-mixta",
+					"name": "Ensalada mixta",
+					"price": "180"
+				}
+			]
+		},
+		{
+			"sectionID": "viandas",
+			"sectionName": "Viandas",
+			"products": [
+				{
+					"imgURL": "./assets/images/cartas/viandas/chicharitas-platano",
+					"name": "Chicharitas de plátano",
+					"price": "160"
+				},
+				{
+					"imgURL": "./assets/images/cartas/viandas/platano-maduro-frito",
+					"name": "Plátano maduro frito",
+					"price": "380"
+				},
+				{
+					"imgURL": "./assets/images/cartas/viandas/tostones",
+					"name": "Tostones",
+					"price": "340"
+				},
+				{
+					"imgURL": "./assets/images/cartas/viandas/papas-fritas",
+					"name": "Papas fritas",
+					"price": "500"
+				}
+			]
+		},
+		{
+			"sectionID": "postres",
+			"sectionName": "Postres",
+			"products": [
+				{
+					"imgURL": "./assets/images/cartas/postres/postre",
+					"name": "Postre de la casa",
+					"price": "250",
+					"big": true
+				}
+			]
+		}
+	],
+	"drinks": [
+		{
+			"sectionID": "bebidas",
+			"sectionName": "Bebidas",
+			"products": [
+				{
+					"imgURL": "./assets/images/cartas/bebidas/refrescos-nacionales",
+					"name": "Refrescos nacionales",
+					"price": "250"
+				},
+				{
+					"imgURL": "./assets/images/cartas/bebidas/refrescos-importados",
+					"name": "Refrescos importados",
+					"price": "210"
+				},
+				{
+					"imgURL": "./assets/images/cartas/bebidas/refresco-pomo-chico",
+					"name": "Refresco de Pomo",
+					"price": "250",
+					"name_extra": "Chico"
+				},
+				{
+					"imgURL": "./assets/images/cartas/bebidas/refresco-pomo-grande",
+					"name": "Refresco de Pomo",
+					"price": "600",
+					"name_extra": "Grande"
+				},
+				{
+					"imgURL": "./assets/images/cartas/bebidas/malta-nacional",
+					"name": "Malta nacional",
+					"price": "300",
+					"big": true
+				},
+				{
+					"imgURL": "./assets/images/cartas/bebidas/malta-importada",
+					"name": "Malta importada",
+					"price": "280"
+				},
+				{
+					"imgURL": "./assets/images/cartas/bebidas/jugo-caja-chico",
+					"name": "Jugo de caja",
+					"price": "200",
+					"name_extra": "Chico"
+				},
+				{
+					"imgURL": "./assets/images/cartas/bebidas/jugo-caja-grande",
+					"name": "Jugo de caja",
+					"price": "730",
+					"name_extra": "Grande"
+				},
+				{
+					"imgURL": "./assets/images/cartas/bebidas/jugo-lata",
+					"name": "Jugo de lata",
+					"price": "270"
+				},
+				{
+					"imgURL": "./assets/images/cartas/bebidas/cerveza-cristal",
+					"name": "Cerveza Cristal",
+					"price": "300",
+					"big": true
+				},
+				{
+					"imgURL": "./assets/images/cartas/bebidas/cerveza-bucanero",
+					"name": "Cerveza Bucanero",
+					"price": "300"
+				},
+				{
+					"imgURL": "./assets/images/cartas/bebidas/cerveza-importada",
+					"name": "Cerveza importada",
+					"price": "210"
+				},
+				{
+					"imgURL": "./assets/images/cartas/bebidas/agua-natural-500ml",
+					"name": "Agua natural",
+					"price": "120",
+					"name_extra": "500ml"
+				},
+				{
+					"imgURL": "./assets/images/cartas/bebidas/agua-natural-1500ml",
+					"name": "Agua natural",
+					"price": "180",
+					"name_extra": "1500ml"
+				},
+				{
+					"imgURL": "./assets/images/cartas/bebidas/kermato",
+					"name": "Kermato",
+					"price": "350"
+				},
+				{
+					"imgURL": "./assets/images/cartas/bebidas/energizantes",
+					"name": "Energizantes",
+					"price": "250"
+				},
+				{
+					"imgURL": "./assets/images/cartas/bebidas/red-bull",
+					"name": "Red Bull",
+					"price": "450",
+					"big": true
+				},
+				{
+					"imgURL": "./assets/images/cartas/bebidas/yogurt",
+					"name": "Yogurt",
+					"price": "180"
+				},
+				{
+					"imgURL": "./assets/images/cartas/bebidas/cafe",
+					"name": "Café",
+					"price": "60"
+				}
+			]
+		},
+		{
+			"sectionID": "cocteleria",
+			"sectionName": "Coctelería",
+			"products": [
+				{
+					"imgURL": "./assets/images/cartas/cocteleria/daiquiri",
+					"name": "Daiquirí",
+					"price": "300",
+					"description": "45ml Ron Blanco, 5 Gotas de Marrasquino, 2cda de Azúcar, Limón, Hielo"
+				},
+				{
+					"imgURL": "./assets/images/cartas/cocteleria/pina-colada",
+					"name": "Piña Colada sin Alcohol",
+					"price": "160",
+					"description": "90ml Jugo de Piña, 60ml Leche de Coco, 120ml Hielo"
+				},
+				{
+					"imgURL": "./assets/images/cartas/cocteleria/pina-colada-alcohol",
+					"name": "Piña Colada con Alcohol",
+					"price": "200",
+					"description": "90ml Jugo de Piña, 60ml Leche de Coco, 30ml Ron Blanco, 120ml Hielo"
+				},
+				{
+					"imgURL": "./assets/images/cartas/cocteleria/laguna-azul",
+					"name": "Laguna Azul",
+					"price": "250",
+					"description": "30ml Vodka, 30ml Curacao Azul, Refresco de Limón"
+				},
+				{
+					"imgURL": "./assets/images/cartas/cocteleria/cuba-libre",
+					"name": "Cuba Libre",
+					"price": "300",
+					"description": "45ml Ron Blanco, Limón, Refresco de Cola, Hielo"
+				},
+				{
+					"imgURL": "./assets/images/cartas/cocteleria/blue-hawaii",
+					"name": "Blue Hawaii",
+					"price": "250",
+					"description": "30ml Ron Blanco, 30ml Curacao Azul, 60ml Jugo de Piña, 30ml Leche de Coco, Hielo"
+				},
+				{
+					"imgURL": "./assets/images/cartas/cocteleria/sangria",
+					"name": "Sangría",
+					"price": "300",
+					"description": "45ml Vino Blanco, Limón, 1cda de Azúcar, Refresco de Limón, Hielo"
+				},
+				{
+					"imgURL": "./assets/images/cartas/cocteleria/limonada-frape",
+					"name": "Limonada Frappe",
+					"price": "180",
+					"description": "3cda de Azúcar, Limón, Hielo"
+				},
+				{
+					"imgURL": "./assets/images/cartas/cocteleria/limonada-electrica",
+					"name": "Limonada Eléctrica",
+					"price": "200",
+					"description": "45ml Vodka o Ron Blanco, 30ml Curacao Azul, Limón, 2cda de Azúcar, Hielo"
+				},
+				{
+					"imgURL": "./assets/images/cartas/cocteleria/mojito",
+					"name": "Mojito",
+					"price": "200",
+					"description": "45ml Ron Blanco, 60ml Refresco de Limón, Hierbabuena, Limón, Azúcar, Hielo"
+				},
+				{
+					"imgURL": "./assets/images/cartas/cocteleria/caipirina",
+					"name": "Caipiriña",
+					"price": "180",
+					"description": "45ml Ron Blanco, 1cda de Azúcar, Limón, Hielo"
+				},
+				{
+					"imgURL": "./assets/images/cartas/cocteleria/canchanchara",
+					"name": "Canchánchara",
+					"price": "150",
+					"description": "30ml Miel, 45ml Aguardiente, Limón, Hielo"
+				},
+				{
+					"imgURL": "./assets/images/cartas/cocteleria/michelada",
+					"name": "Michelada",
+					"price": "300",
+					"description": "1 Cerveza, 1cda Salsa Inglesa, 40ml Jugo de Tomate, Picante, Sal, Pimienta, Limón"
+				},
+				{
+					"imgURL": "./assets/images/cartas/cocteleria/cafe-cortadito",
+					"name": "Café Cortadito",
+					"price": "120",
+					"description": "55ml"
+				}
+			]
+		}
+	]
+}
