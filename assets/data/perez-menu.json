@@ -692,85 +692,87 @@
 					"imgURL": "./assets/images/cartas/cocteleria/daiquiri",
 					"name": "Daiquirí",
 					"price": "300",
-					"description": "45ml Ron Blanco, 5 Gotas de Marrasquino, 2cda de Azúcar, Limón, Hielo"
+					"description": "45ml Ron Blanco, 5 Gotas de Marrasquino, 2cda de Azúcar, Limón, Hielo."
 				},
 				{
 					"imgURL": "./assets/images/cartas/cocteleria/pina-colada",
-					"name": "Piña Colada sin Alcohol",
+					"name": "Piña Colada",
 					"price": "160",
-					"description": "90ml Jugo de Piña, 60ml Leche de Coco, 120ml Hielo"
+					"description": "90ml Jugo de Piña, 60ml Leche de Coco, 120ml Hielo.",
+					"name_extra": "sin Alcohol"
 				},
 				{
 					"imgURL": "./assets/images/cartas/cocteleria/pina-colada-alcohol",
-					"name": "Piña Colada con Alcohol",
+					"name": "Piña Colada",
 					"price": "200",
-					"description": "90ml Jugo de Piña, 60ml Leche de Coco, 30ml Ron Blanco, 120ml Hielo"
+					"description": "90ml Jugo de Piña, 60ml Leche de Coco, 30ml Ron Blanco, 120ml Hielo.",
+					"name_extra": "con Alcohol"
 				},
 				{
 					"imgURL": "./assets/images/cartas/cocteleria/laguna-azul",
 					"name": "Laguna Azul",
 					"price": "250",
-					"description": "30ml Vodka, 30ml Curacao Azul, Refresco de Limón"
+					"description": "30ml Vodka, 30ml Curacao Azul, Refresco de Limón."
 				},
 				{
 					"imgURL": "./assets/images/cartas/cocteleria/cuba-libre",
 					"name": "Cuba Libre",
 					"price": "300",
-					"description": "45ml Ron Blanco, Limón, Refresco de Cola, Hielo"
+					"description": "45ml Ron Blanco, Limón, Refresco de Cola, Hielo."
 				},
 				{
 					"imgURL": "./assets/images/cartas/cocteleria/blue-hawaii",
 					"name": "Blue Hawaii",
 					"price": "250",
-					"description": "30ml Ron Blanco, 30ml Curacao Azul, 60ml Jugo de Piña, 30ml Leche de Coco, Hielo"
+					"description": "30ml Ron Blanco, 30ml Curacao Azul, 60ml Jugo de Piña, 30ml Leche de Coco, Hielo."
 				},
 				{
 					"imgURL": "./assets/images/cartas/cocteleria/sangria",
 					"name": "Sangría",
 					"price": "300",
-					"description": "45ml Vino Blanco, Limón, 1cda de Azúcar, Refresco de Limón, Hielo"
+					"description": "45ml Vino Blanco, Limón, 1cda de Azúcar, Refresco de Limón, Hielo."
 				},
 				{
 					"imgURL": "./assets/images/cartas/cocteleria/limonada-frape",
 					"name": "Limonada Frappe",
 					"price": "180",
-					"description": "3cda de Azúcar, Limón, Hielo"
+					"description": "3cda de Azúcar, Limón, Hielo."
 				},
 				{
 					"imgURL": "./assets/images/cartas/cocteleria/limonada-electrica",
 					"name": "Limonada Eléctrica",
 					"price": "200",
-					"description": "45ml Vodka o Ron Blanco, 30ml Curacao Azul, Limón, 2cda de Azúcar, Hielo"
+					"description": "45ml Vodka o Ron Blanco, 30ml Curacao Azul, Limón, 2cda de Azúcar, Hielo."
 				},
 				{
 					"imgURL": "./assets/images/cartas/cocteleria/mojito",
 					"name": "Mojito",
 					"price": "200",
-					"description": "45ml Ron Blanco, 60ml Refresco de Limón, Hierbabuena, Limón, Azúcar, Hielo"
+					"description": "45ml Ron Blanco, 60ml Refresco de Limón, Hierbabuena, Limón, Azúcar, Hielo."
 				},
 				{
 					"imgURL": "./assets/images/cartas/cocteleria/caipirina",
 					"name": "Caipiriña",
 					"price": "180",
-					"description": "45ml Ron Blanco, 1cda de Azúcar, Limón, Hielo"
+					"description": "45ml Ron Blanco, 1cda de Azúcar, Limón, Hielo."
 				},
 				{
 					"imgURL": "./assets/images/cartas/cocteleria/canchanchara",
 					"name": "Canchánchara",
 					"price": "150",
-					"description": "30ml Miel, 45ml Aguardiente, Limón, Hielo"
+					"description": "30ml Miel, 45ml Aguardiente, Limón, Hielo."
 				},
 				{
 					"imgURL": "./assets/images/cartas/cocteleria/michelada",
 					"name": "Michelada",
 					"price": "300",
-					"description": "1 Cerveza, 1cda Salsa Inglesa, 40ml Jugo de Tomate, Picante, Sal, Pimienta, Limón"
+					"description": "1 Cerveza, 1cda Salsa Inglesa, 40ml Jugo de Tomate, Picante, Sal, Pimienta, Limón."
 				},
 				{
 					"imgURL": "./assets/images/cartas/cocteleria/cafe-cortadito",
 					"name": "Café Cortadito",
 					"price": "120",
-					"description": "55ml"
+					"description": "55ml café, 20ml leche caliente, 2cda espuma de leche."
 				}
 			]
 		}
