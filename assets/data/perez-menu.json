@@ -3,11 +3,18 @@
 		{
 			"sectionID": "aperitivos",
 			"sectionName": "Aperitivos",
+			"icoURL": "./assets/images/menu-ico/aperitivos.svg",
 			"products": [
 				{
 					"imgURL": "./assets/images/cartas/aperitivos/ensalada-fria",
 					"name": "Ensalada fría",
 					"price": "150"
+				},
+				{
+					"imgURL": "./assets/images/cartas/aperitivos/ensalada-fria-especial",
+					"name": "Ensalada fría",
+					"price": "300",
+					"name_extra": "Especial"
 				},
 				{
 					"imgURL": "./assets/images/cartas/aperitivos/coctel-ostion",
@@ -32,16 +39,18 @@
 				{
 					"imgURL": "./assets/images/cartas/aperitivos/coctel-mariscos",
 					"name": "Cóctel de mariscos",
-					"price": "600"
+					"price": "600",
+					"big": true
 				}
 			],
 			"notes": [
-				"Todo los precios en todas las cartas, son en USD y se pueden pagar en CUP, según la tasa de cambio vigente al adquirir el producto."
+				"Los precios en todas las cartas, son en USD y se pueden pagar en CUP, según la tasa de cambio vigente al adquirir el producto."
 			]
 		},
 		{
 			"sectionID": "sandwichs",
 			"sectionName": "Sándwichs",
+			"icoURL": "./assets/images/menu-ico/sandwichs.svg",
 			"products": [
 				{
 					"imgURL": "./assets/images/cartas/sandwichs/sandwich-perez",
@@ -74,6 +83,7 @@
 		{
 			"sectionID": "hamburguesas",
 			"sectionName": "Hamburguesas",
+			"icoURL": "./assets/images/menu-ico/hamburguesas.svg",
 			"products": [
 				{
 					"imgURL": "./assets/images/cartas/hamburguesas/hamburguesa",
@@ -97,6 +107,7 @@
 		{
 			"sectionID": "tortillas",
 			"sectionName": "Tortillas",
+			"icoURL": "./assets/images/menu-ico/tortillas.svg",
 			"products": [
 				{
 					"imgURL": "./assets/images/cartas/tortillas/tortilla-natural",
@@ -120,6 +131,7 @@
 		{
 			"sectionID": "pizzas",
 			"sectionName": "Pizzas",
+			"icoURL": "./assets/images/menu-ico/pizzas.svg",
 			"products": [
 				{
 					"imgURL": "./assets/images/cartas/pizzas/pizza-queso",
@@ -292,6 +304,7 @@
 		{
 			"sectionID": "pastas",
 			"sectionName": "Pastas",
+			"icoURL": "./assets/images/menu-ico/pastas.svg",
 			"products": [
 				{
 					"imgURL": "./assets/images/cartas/pastas/espaguetis-queso",
@@ -308,6 +321,7 @@
 		{
 			"sectionID": "arroces",
 			"sectionName": "Arroces",
+			"icoURL": "./assets/images/menu-ico/arroces.svg",
 			"products": [
 				{
 					"imgURL": "./assets/images/cartas/arroces/arroz-blanco",
@@ -357,6 +371,7 @@
 		{
 			"sectionID": "carne-res",
 			"sectionName": "Carne de Res",
+			"icoURL": "./assets/images/menu-ico/carne-res.svg",
 			"products": [
 				{
 					"imgURL": "./assets/images/cartas/carne-res/bistec-grille",
@@ -379,6 +394,7 @@
 		{
 			"sectionID": "carne-cerdo",
 			"sectionName": "Carne de Cerdo",
+			"icoURL": "./assets/images/menu-ico/carne-cerdo.svg",
 			"products": [
 				{
 					"imgURL": "./assets/images/cartas/carne-cerdo/higado-a-la-italiana",
@@ -431,6 +447,7 @@
 		{
 			"sectionID": "pollo",
 			"sectionName": "Pollo",
+			"icoURL": "./assets/images/menu-ico/pollo.svg",
 			"products": [
 				{
 					"imgURL": "./assets/images/cartas/pollo/pollo-frito",
@@ -463,6 +480,7 @@
 		{
 			"sectionID": "pescados",
 			"sectionName": "Pescados",
+			"icoURL": "./assets/images/menu-ico/pescados.svg",
 			"products": [
 				{
 					"imgURL": "./assets/images/cartas/pescados/pescado-frito",
@@ -499,6 +517,7 @@
 		{
 			"sectionID": "mariscos",
 			"sectionName": "Mariscos",
+			"icoURL": "./assets/images/menu-ico/mariscos.svg",
 			"products": [
 				{
 					"imgURL": "./assets/images/cartas/mariscos/camaron-rebosado",
@@ -521,6 +540,7 @@
 		{
 			"sectionID": "ensaladas",
 			"sectionName": "Ensaladas",
+			"icoURL": "./assets/images/menu-ico/ensaladas.svg",
 			"products": [
 				{
 					"imgURL": "./assets/images/cartas/ensaladas/ensalada",
@@ -537,6 +557,7 @@
 		{
 			"sectionID": "viandas",
 			"sectionName": "Viandas",
+			"icoURL": "./assets/images/menu-ico/viandas.svg",
 			"products": [
 				{
 					"imgURL": "./assets/images/cartas/viandas/chicharitas-platano",
@@ -563,12 +584,12 @@
 		{
 			"sectionID": "postres",
 			"sectionName": "Postres",
+			"icoURL": "./assets/images/menu-ico/postres.svg",
 			"products": [
 				{
 					"imgURL": "./assets/images/cartas/postres/postre",
 					"name": "Postre de la casa",
-					"price": "250",
-					"big": true
+					"price": "250"
 				}
 			]
 		}
@@ -577,6 +598,7 @@
 		{
 			"sectionID": "bebidas",
 			"sectionName": "Bebidas",
+			"icoURL": "./assets/images/menu-ico/bebidas.svg",
 			"products": [
 				{
 					"imgURL": "./assets/images/cartas/bebidas/refrescos-nacionales",
@@ -687,6 +709,7 @@
 		{
 			"sectionID": "cocteleria",
 			"sectionName": "Coctelería",
+			"icoURL": "./assets/images/menu-ico/cocteleria.svg",
 			"products": [
 				{
 					"imgURL": "./assets/images/cartas/cocteleria/daiquiri",
